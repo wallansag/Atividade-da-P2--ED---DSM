@@ -1,8 +1,8 @@
-numero_verificar = -5
+numero = int(input("Digite um número"))
 
-if numero_verificar > 0:
-    print(f"O número {numero_verificar} é positivo.")
-elif numero_verificar < 0:
-    print(f"O número {numero_verificar} é negativo.")
+if numero > 0:
+    print("Positivo")
+elif numero < 0:
+    print("Negativo")
 else:
-    print(f"O número {numero_verificar} é zero.")
+    print("Zero")

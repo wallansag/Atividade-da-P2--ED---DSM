@@ -1,5 +1,5 @@
 def pessoa_mais_velha(lista_pessoas):
-    """Recebe uma lista de tuplas (nome, idade) e retorna a pessoa mais velha."""
+   
     if not lista_pessoas:
         return None
     
@@ -9,7 +9,7 @@ def pessoa_mais_velha(lista_pessoas):
             mais_velho = pessoa
     return mais_velho
 
-pessoas = [("Alice", 25), ("Bob", 30), ("Charlie", 22), ("David", 35)]
+pessoas = [("João", 25), ("José", 30), ("Maria", 22), ("Fulano", 35)]
 velho = pessoa_mais_velha(pessoas)
 if velho:
     print(f"A pessoa mais velha é: {velho[0]} com {velho[1]} anos.")

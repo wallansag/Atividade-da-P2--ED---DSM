@@ -1,5 +1,5 @@
-largura = 5
-altura = 10
+largura = int(input("Digite a largura"))
+altura = int(input("Digite a altura"))
 
 area = largura * altura
 perimetro = 2 * (largura + altura)

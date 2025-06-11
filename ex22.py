@@ -1,6 +1,6 @@
-frase = "programacao em python"
-letra_procurada = "a"
+frase = input("Digite um palavra ou frase")
+letra = input("Digite a letra para ser localizada")
 
-contagem = frase.count(letra_procurada)
+contagem = frase.count(letra)
 
-print(f"A letra '{letra_procurada}' aparece {contagem} vezes na frase '{frase}'.")
+print(contagem)

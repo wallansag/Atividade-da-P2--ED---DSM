@@ -1,6 +1,6 @@
 def elementos_comuns(lista1, lista2):
-    """Retorna uma nova lista contendo apenas os elementos comuns entre duas listas."""
-    return list(set(lista1) & set(lista2)) # Usa a interseção de sets
+    
+    return list(set(lista1) & set(lista2)) 
 
 lista_a = [1, 2, 3, 4, 5]
 lista_b = [4, 5, 6, 7, 8]

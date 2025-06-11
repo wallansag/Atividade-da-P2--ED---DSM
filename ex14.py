@@ -1,6 +1,6 @@
-lado1 = 5
-lado2 = 5
-lado3 = 5
+lado1 = int(input("Digite um número para o lado 1"))
+lado2 = int(input("Digite um número para o lado 2"))
+lado3 = int(input("Digite um número para o lado 3"))
 
 if lado1 == lado2 == lado3:
     print("O triângulo é Equilátero.")

@@ -1,7 +1,7 @@
-string_para_converter = "abc" 
+string = input("Digite um número")
 
 try:
-    numero_convertido = int(string_para_converter)
-    print(f"A string '{string_para_converter}' foi convertida para o inteiro: {numero_convertido}")
+    numero = int(string)
+    print(string)
 except ValueError:
-    print(f"Erro: A string '{string_para_converter}' não pode ser convertida para um número inteiro.")
+    print(f"Erro: A string  não pode ser convertida para um número inteiro.")

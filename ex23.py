@@ -1,8 +1,8 @@
-palavra = "arara" # Tente com "python" para não ser palíndromo
+palavra = input("Digite uma palavra")
 
-palavra_invertida = palavra[::-1] # Inverte a string
+palavra_invertida = palavra[::-1] 
 
 if palavra == palavra_invertida:
-    print(f"A palavra '{palavra}' é um palíndromo.")
+    print(f"É um palíndromo.")
 else:
-    print(f"A palavra '{palavra}' não é um palíndromo.")
+    print(f"não é um palíndromo.")
